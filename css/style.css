@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blocks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    position: absolute;
+    
+}
+.part-one {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.part-one__block1 {
+    width: 100%;
+    height: 49%;
+    min-height: 100px;
+    max-height: 650px;
+    background-color: rgb(164, 229, 242);
+}
+.part-one__grey-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 2%;
+    background-color: rgb(234, 234, 233);
+    cursor: pointer;
+}
+.part-one__slider1 {
+    width: 20px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+.part-one__slider2 {
+    width: 20px;
+    border: 1px solid black;
+}
+.part-one__block2 {
+    width: 100%;
+    height: 49%;
+    min-height: 100px;
+    background-color: rgb(239, 194, 202);
+}
+.part-two {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.part-two-content {
+    width: 100%;
+    height: 100%;
+}
+.grey-left {
+    width: 1.2%;
+    height: 100%;
+    background-color: rgb(234, 234, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1 {
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 7px solid rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+.button2 {
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 7px solid rgb(0, 0, 0);
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.part-two__block1 {
+    width: 100%;
+    height: 60%;
+    min-height: 100px;
+    max-height: 650px;
+    background-color: rgb(42, 186, 162);
+}
+.slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 2%;
+    background-color: rgb(234, 234, 233);
+    cursor: pointer;
+}
+.part-two__slider1 {
+    width: 20px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+.part-two__slider2 {
+    width: 20px;
+    border: 1px solid black;
+}
+.part-two__block2 {
+    width: 100%;
+    height: 38%;
+    background-color: rgb(243, 150, 116);
+    
+}
+.none {
+    display: none;
+}
