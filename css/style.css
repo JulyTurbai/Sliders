@@ -21,7 +21,7 @@
     width: 100%;
     height: 49%;
     min-height: 100px;
-    max-height: 650px;
+    max-height: 88%;
     background-color: rgb(164, 229, 242);
 }
 .part-one__grey-zone {
@@ -85,7 +85,7 @@
     width: 100%;
     height: 60%;
     min-height: 100px;
-    max-height: 650px;
+    max-height: 88%;
     background-color: rgb(42, 186, 162);
 }
 .slide2 {
